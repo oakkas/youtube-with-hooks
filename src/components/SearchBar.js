@@ -11,7 +11,7 @@ function SearchBar({ onFormSubmit }) {
     <div className="searchBar ui segment">
       <form onSubmit={onSubmit} action="" className="ui form">
         <div className="field">
-          <label htmlFor="">Search for a Video: </label>
+          <label htmlFor="">Video Search: </label>
           <input
             onChange={(event) => {
               setTerm(event.target.value);
